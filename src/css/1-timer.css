@@ -16,7 +16,9 @@ li {
   padding: 0;
 }
 
-.gallery {
+
+
+/* .gallery {
   
   display: flex;
   flex-wrap: wrap;
@@ -38,4 +40,4 @@ li {
   object-fit: cover;
   border-radius: 8px;
 }
-
+ */
