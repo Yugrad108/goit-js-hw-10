@@ -18,26 +18,34 @@ li {
 
 
 
-/* .gallery {
-  
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  justify-content: center;
-  align-items: center;
-  margin: 30;
-  padding: 30;
+.timer {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
 
-}
+        .field {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-.gallery-item {  
-  margin: 0px;  
-}
-.gallery-image {  
-  display: block;
-  width: 360px;
-  height: auto;
-  object-fit: cover;
-  border-radius: 8px;
-}
- */
+        .value {
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .label {
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+
+        [data-start] {
+            padding: 5px 15px;
+            cursor: pointer;
+        }
+
+        [data-start]:disabled {
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
