@@ -16,6 +16,6 @@ ul,
 ol,
 li {
   list-style-type: none;
-  margin: 30px;
-  padding-left: 20px;
+  margin: 0;
+  padding-left: 0;
 }
